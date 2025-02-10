@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Корзина</h1>
+        <section class='html'>
+            <h2>Твой выбор</h2>       
+            <div class="product">
+                <img src="assets/product1.webp" alt="Духи" class="product-image">
+                <h3>Духи</h3>
+                <p>Тонкий аромат с цветочными и древесными нотами, идеально подходящий для любых случаев.</p>
+                <span class="product-price" data-price="3000">3000.00₽</span>
+            </div>       
+            <div class="product">
+                <img src="assets/product2.webp" alt="Умывание" class="product-image">
+                <h3>Набор для умывания</h3>
+                <p>В набор входят элегантные флаконы с очищающим средством, увлажняющим кремом и мягким скрабом для лица.</p>
+                <span class="product-price" data-price="1500">1500.00₽</span>
+            </div>
+            <div class="product">
+                <img src="assets/product3.webp" alt="Косметичка" class="product-image">
+                <h3>Косметичка</h3>
+                <p> Это стильный и элегантный аксессуар с пастельными оттенками, который подходит для хранения косметических и уходовых средств.</p>
+                <span class="product-price" data-price="850">850.00₽</span>
+            </div>
+            <div class="product">
+                <img src="assets/product4.webp" alt="Набор помад" class="product-image">
+                <h3>Набор помад</h3>
+                <p>Набор из 3-х помад с мягкими пастельными оттенками. Включает нюдовый, розовый и глубокий красный — идеальные цвета для создания разных образов, от повседневных до вечерних.</p>
+                <span class="product-price" data-price="2500">2500.00₽</span>
+            </div>
+        </section>
+        <div class="total-container">
+            <button id="applyDiscountButton">Использовать купон 20%</button>
+            <div class="total">
+                <span>Итоговая стоимость: </span><span id="totalPrice">ххх</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
